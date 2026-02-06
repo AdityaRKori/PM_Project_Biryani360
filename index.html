@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biryani360</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              // Primary Backgrounds
+              charcoal: {
+                950: '#0f0b08', // Main App BG
+                900: '#181411', // Card BG
+                800: '#241f1c', // Hover States
+              },
+              // Brand Colors
+              saffron: {
+                DEFAULT: '#FF9933', // Primary Brand
+                50: '#fff7ed',
+                100: '#ffedd5',
+                200: '#fed7aa',
+                300: '#fdba74',
+                400: '#fb923c',
+                500: '#FF9933', 
+                600: '#ea580c',
+                700: '#c2410c',
+                800: '#9a3412',
+                900: '#7c2d12',
+              },
+              // Accents
+              gold: {
+                DEFAULT: '#D4AF37', // Oil Gold
+                100: '#F9F1D8',
+                200: '#F1E0AD',
+                300: '#E8CF82',
+                400: '#DFC060',
+                500: '#D4AF37',
+                600: '#AA8C2C',
+              },
+              red: {
+                700: '#C62828', // Deep Red
+              },
+              cream: {
+                DEFAULT: '#FFF7EE', // Text/Surface
+                50: '#FFF7EE',
+                100: '#FDF1E3',
+              }
+            },
+            fontFamily: {
+              sans: ['Poppins', 'sans-serif'], // Headings
+              body: ['Inter', 'sans-serif'],   // Body text
+              serif: ['Playfair Display', 'serif'],
+              fancy: ['Great Vibes', 'cursive'],
+            },
+            borderRadius: {
+              'xl': '18px', // Soft UI radius
+              '2xl': '24px',
+              '3xl': '32px',
+            },
+            boxShadow: {
+              'premium': '0 20px 40px -10px rgba(0, 0, 0, 0.5)',
+              'glow': '0 0 20px rgba(255, 153, 51, 0.15)',
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.6s cubic-bezier(0.16, 1, 0.3, 1)',
+              'slide-up': 'slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1)',
+              'steam': 'steam 4s infinite linear',
+              'move-light': 'moveLight 15s ease infinite alternate',
+              'card-lift': 'cardLift 0.4s ease-out forwards',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              slideUp: {
+                '0%': { transform: 'translateY(30px)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' },
+              },
+              steam: {
+                '0%': { transform: 'translateY(0) scale(1)', opacity: '0' },
+                '50%': { opacity: '0.4' },
+                '100%': { transform: 'translateY(-30px) scale(1.4)', opacity: '0' },
+              },
+              moveLight: {
+                '0%': { backgroundPosition: '0% 50%' },
+                '100%': { backgroundPosition: '100% 50%' },
+              },
+              cardLift: {
+                '0%': { transform: 'translateY(0)', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' },
+                '100%': { transform: 'translateY(-8px)', boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 0 15px rgba(212, 175, 55, 0.1)' },
+              }
+            }
+          },
+        },
+      }
+    </script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Poppins', sans-serif;
+      }
+      .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      /* Subtle moving light background */
+      .bg-lux-gradient {
+        background: linear-gradient(120deg, #0f0b08 0%, #1a1614 50%, #0f0b08 100%);
+        background-size: 200% 200%;
+        animation: moveLight 20s ease infinite alternate;
+      }
+      
+      html:not(.dark) .bg-lux-gradient {
+         background: #f9fafb; /* Simple fallback for light mode */
+         animation: none;
+      }
+
+      /* Rice Grain Slider */
+      .rice-slider {
+        -webkit-appearance: none;
+        width: 100%;
+        background: transparent;
+      }
+      .rice-slider:focus {
+        outline: none;
+      }
+      .rice-slider::-webkit-slider-runnable-track {
+        width: 100%;
+        height: 4px;
+        cursor: pointer;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 2px;
+      }
+      html:not(.dark) .rice-slider::-webkit-slider-runnable-track {
+        background: rgba(0, 0, 0, 0.1);
+      }
+      .rice-slider::-webkit-slider-thumb {
+        height: 16px;
+        width: 28px;
+        border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; /* Organic rice grain shape */
+        background: #ffffff;
+        border: 1px solid #D4AF37;
+        cursor: pointer;
+        -webkit-appearance: none;
+        margin-top: -6px; /* center on track */
+        box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+        transform: rotate(-10deg);
+        transition: transform 0.1s ease;
+      }
+      .rice-slider:active::-webkit-slider-thumb {
+        transform: rotate(0deg) scale(1.1);
+      }
+
+      /* Cinematic Text Reveal */
+      .reveal-text {
+        position: relative;
+        color: transparent;
+        /* Fallback for webkit */
+        background: linear-gradient(to right, #FFF7EE 0%, #FFF7EE 50%, transparent 50%, transparent 100%);
+        background-size: 200% 100%;
+        background-position: 100% 0;
+        -webkit-background-clip: text;
+        background-clip: text;
+        animation: revealText 1.5s cubic-bezier(0.2, 1, 0.3, 1) forwards;
+      }
+      
+      html:not(.dark) .reveal-text {
+         background: linear-gradient(to right, #111827 0%, #111827 50%, transparent 50%, transparent 100%);
+         background-size: 200% 100%;
+         background-position: 100% 0;
+         -webkit-background-clip: text;
+         background-clip: text;
+      }
+      
+      @keyframes revealText {
+        to { background-position: 0% 0; }
+      }
+
+      /* Gold Button Hover Effect */
+      .btn-gold {
+        border: 1px solid rgba(212, 175, 55, 0.4);
+        color: #D4AF37;
+        background: transparent;
+        transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        position: relative;
+        overflow: hidden;
+      }
+      .btn-gold:hover {
+        background: #D4AF37;
+        color: #0f0b08;
+        box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);
+        border-color: #D4AF37;
+        text-shadow: none;
+      }
+      html:not(.dark) .btn-gold {
+         border-color: rgba(212, 175, 55, 0.8);
+         color: #b49020;
+      }
+      html:not(.dark) .btn-gold:hover {
+         color: white;
+      }
+      .btn-gold:active {
+        transform: scale(0.98);
+      }
+
+      /* Card Hover Lift & Glow */
+      .card-vip {
+        transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+      }
+      html:not(.dark) .card-vip {
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        background: white;
+      }
+      .card-vip:hover {
+        transform: translateY(-8px);
+        border-color: rgba(212, 175, 55, 0.6); /* Oil Gold Rim */
+        box-shadow: 0 20px 40px -10px rgba(0,0,0,0.5), 0 0 20px rgba(212, 175, 55, 0.1);
+      }
+      html:not(.dark) .card-vip:hover {
+         box-shadow: 0 20px 40px -10px rgba(0,0,0,0.1), 0 0 20px rgba(212, 175, 55, 0.1);
+      }
+
+      /* Premium Input Global Styles */
+      .input-premium {
+        background-color: rgba(255, 255, 255, 0.03) !important;
+        color: #FFFFFF !important;
+        min-height: 44px;
+        padding: 12px 16px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 0.75rem; /* rounded-xl */
+        width: 100%;
+        font-weight: 500;
+        outline: none;
+        transition: all 0.2s ease-out;
+      }
+      html:not(.dark) .input-premium {
+         background-color: #f3f4f6 !important;
+         color: #111827 !important;
+         border-color: #e5e7eb;
+      }
+      .input-premium:focus {
+        outline: 3px solid #D4AF37;
+        outline-offset: -1px;
+        border-color: #D4AF37;
+        background-color: rgba(255, 255, 255, 0.05) !important;
+      }
+      .input-premium::placeholder {
+        color: rgba(255, 255, 255, 0.70);
+        font-weight: 500;
+        opacity: 1;
+      }
+      html:not(.dark) .input-premium::placeholder {
+         color: #6b7280;
+      }
+      .input-premium:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "leaflet": "https://unpkg.com/leaflet@1.9.4/dist/leaflet-src.esm.js"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

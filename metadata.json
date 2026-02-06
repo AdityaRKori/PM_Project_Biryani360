@@ -1,0 +1,7 @@
+{
+  "name": "Biryani360",
+  "description": "A premium, sensory-focused food discovery app exclusively for Biryani lovers.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
