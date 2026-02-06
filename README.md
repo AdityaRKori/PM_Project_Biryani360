@@ -109,6 +109,35 @@ A custom UI component that replaces standard 1-5 scales. It engages the user phy
 
 ---
 
+## 📸 The Visual Journey: Why Users Fall in Love
+
+**Biryani360 isn't just an app; it's a mood.** 
+We've crafted every pixel to evoke the warmth, aroma, and anticipation of a royal meal. Here is the flow that converts visitors into loyal customers:
+
+### 🎭 Cinematic Entry
+Forget clutter. We welcome users with a "Slow UX" approach—a cinematic fade-in that mimics the steam rising from a fresh handi. It sets the tone: **This is premium.**
+<div align="center">
+  <img src="https://images.unsplash.com/photo-1633945274405-b6c8069047b0?q=80&w=800&auto=format&fit=crop" alt="Landing Hero" style="border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);" />
+  <p><em>The "Dark Mode" aesthetic reduces eye strain and makes the food colors pop.</em></p>
+</div>
+
+### 🥘 The Sensory Menu
+We don't sell "food items"; we sell **narratives**.
+Every dish card features a "Sensory Description" (e.g., *“Delicate floral notes of rose water...”*) instead of a dry ingredient list.
+<div align="center">
+  <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop" alt="Spices" style="border-radius: 10px;" />
+  <p><em>High-fidelity imagery meets storytelling.</em></p>
+</div>
+
+### 🕹️ Gamified Logistics: The Eco-Walk
+**Save Money. Save Earth.**
+Users within 1km see a pulsating "Eco-Walk" option. It turns a boring pickup task into a fitness challenge, rewarding them with points (and saving us delivery margins).
+<div align="center">
+  <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?q=80&w=800&auto=format&fit=crop" alt="Food Delivery" style="border-radius: 10px;" />
+</div>
+
+---
+
 ## 🛠️ Technical Stack
 
 *   **Frontend:** React 18, TypeScript
