@@ -1,3 +1,4 @@
+[**🔴 View Live App**](https://ai.studio/apps/drive/1xmaOZFMMK0sbdc1ualT9ihdpm4NKW_pT?fullscreenApplet=true)
 
 <div align="center">
 
@@ -10,7 +11,7 @@
 
 **A PGDM Capstone Project demonstrating Product-Service Systems (PSS) and User Experience Strategy.**
 
-[View Live Demo](#) • [Request Access](#) • [Hire Me](#work-with-me)
+[View Live Demo](https://ai.studio/apps/drive/1xmaOZFMMK0sbdc1ualT9ihdpm4NKW_pT?fullscreenApplet=true) • [Request Access](#) • [Hire Me](#work-with-me)
 
 </div>
 
