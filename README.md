@@ -1,17 +1,41 @@
-[**🔴 View Live App**](https://ai.studio/apps/drive/1xmaOZFMMK0sbdc1ualT9ihdpm4NKW_pT?fullscreenApplet=true)
-
 <div align="center">
 
-# 🥘 Biryani360
-### The Art of Dum | A Hyper-Vertical Discovery Platform
+<img src="Screenshot 2026-02-08 195429.png" alt="Biryani360 Poster" width="720"/>
 
-![Status](https://img.shields.io/badge/Status-Prototype_Live-success?style=for-the-badge)
-![Role](https://img.shields.io/badge/Role-Product_Manager_&_Dev-blueviolet?style=for-the-badge)
-![Stack](https://img.shields.io/badge/Stack-React_TS_Tailwind-blue?style=for-the-badge)
+<br/>
 
-**A PGDM Capstone Project demonstrating Product-Service Systems (PSS) and User Experience Strategy.**
+<h1 style="font-size:3rem; font-weight:700; letter-spacing:1px;">
+Biryani360
+</h1>
 
-[View Live Demo](https://ai.studio/apps/drive/1xmaOZFMMK0sbdc1ualT9ihdpm4NKW_pT?fullscreenApplet=true) • [Request Access](#) • [Hire Me](#work-with-me)
+<h3 style="font-weight:500; opacity:0.85;">
+The Art of Dum • A Hyper-Vertical Food Discovery Platform
+</h3>
+
+<br/>
+
+<img src="https://img.shields.io/badge/Status-Student_Project_•_Prototype_Live-success?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Role-Product_Manager_&_Developer-blueviolet?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Tech-React_•_TypeScript_•_Tailwind-blue?style=for-the-badge" />
+
+<br/><br/>
+
+<p style="max-width:760px; font-size:1.05rem; line-height:1.6; opacity:0.9;">
+A <b>PGDM Capstone Project</b> demonstrating <b>Product-Service Systems (PSS)</b>,
+user-centric design thinking, and end-to-end product strategy using a
+single-category (biryani) discovery and experience platform.
+</p>
+
+<br/>
+
+<a href="https://ai.studio/apps/drive/1xmaOZFMMK0sbdc1ualT9ihdpm4NKW_pT?fullscreenApplet=true" target="_blank">
+  <img src="https://img.shields.io/badge/View_Live_App-Click_to_Open-black?style=for-the-badge&logo=googlechrome"/>
+</a>
+
+&nbsp;&nbsp;
+<a href="#work-with-me">
+  <img src="https://img.shields.io/badge/Contact-Work_with_Me-darkred?style=for-the-badge"/>
+</a>
 
 </div>
 
