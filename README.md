@@ -122,6 +122,157 @@ The following screens illustrate how **Biryani360** translates a vertical food p
 
 ---
 
+### 11) Global Grid — Recipe Cards (filename: `Screenshot 2026-02-04 234455.png`)
+<p align="center">
+  <img src="Screenshot 2026-02-04 234455.png" alt="Global grid of recipe cards (desktop)" style="max-width:100%;height:auto;">
+</p>
+
+**What this shows:** the main catalogue / global index of pots and recipes — card layout with region tags, cook time, difficulty and visual thumbnails. Use this screenshot to illustrate discovery and browse UX (card-first verticalization).
+
+---
+
+### 12) Arrival / Delivery Animation (filename: `Screenshot 2026-02-04 234848.png`)
+<p align="center">
+  <img src="Screenshot 2026-02-04 234848.png" alt="Arrival imminent animation / landing" style="max-width:100%;height:auto;">
+</p>
+
+**What this shows:** full-screen "arrival imminent" micro-interaction used during order flow to increase perceived value and anticipation. Place this when explaining order UX and gamified delivery experience.
+
+---
+
+### 13) Handi / Cart (mobile) — Checkout Preview (filename: `Screenshot 2026-02-04 234828.png`)
+<p align="center">
+  <img src="Screenshot 2026-02-04 234828.png" alt="Handi (cart) mobile checkout screen" style="max-width:100%;height:auto;">
+</p>
+
+**What this shows:** the user’s current handi (cart) with spice-level, extras and total. Use to describe checkout microcopy, upsell points and walk/earn pickup options.
+
+---
+
+### 14) Discover Card (mobile) — Item Detail Card (filename: `Screenshot 2026-02-04 234754.png`)
+<p align="center">
+  <img src="Screenshot 2026-02-04 234754.png" alt="Discover card mobile — Royal Hyderabadi Dum" style="max-width:100%;height:auto;">
+</p>
+
+**What this shows:** mobile discover/listing card with price, rating, short blurb and spice meter. Good to place near product positioning (hero card → detail funnel).
+
+---
+
+### 15) Points Wallet (filename: `Screenshot 2026-02-04 234715.png`)
+<p align="center">
+  <img src="Screenshot 2026-02-04 234715.png" alt="Biryani points wallet" style="max-width:100%;height:auto;">
+</p>
+
+**What this shows:** loyalty/points wallet UI and redemption options. Use this when discussing retention mechanics and gamified incentives.
+
+---
+
+### 16) Walk-for-Biryani (activity / rewards) (filename: `Screenshot 2026-02-04 234634.png`)
+<p align="center">
+  <img src="Screenshot 2026-02-04 234634.png" alt="Walk for Biryani — activity and walkable outlets" style="max-width:100%;height:auto;">
+</p>
+
+**What this shows:** eco / walk-to-earn feature — milestone rewards, nearby walkable outlets. Use for the loyalty + sustainability use-case section.
+
+---
+
+### 17) About / Our Story (desktop) (filename: `Screenshot 2026-02-04 234601.png`)
+<p align="center">
+  <img src="Screenshot 2026-02-04 234601.png" alt="About / Our Story section" style="max-width:100%;height:auto;">
+</p>
+
+**What this shows:** brand storytelling section — mission, validity metrics (kitchens / cities / orders). Place this near the executive summary to support positioning.
+
+---
+
+### 18) World Biryani — Mobile Carousel (filename: `Screenshot 2026-02-04 234547.png`)
+<p align="center">
+  <img src="Screenshot 2026-02-04 234547.png" alt="World Biryani & Fusion mobile carousel" style="max-width:100%;height:auto;">
+</p>
+
+**What this shows:** scroller of regional biryani cards (mobile). Use for the internationalization / product breadth part of the canvas.
+
+---
+
+### 19) Recipe Modal — Texas Brisket (filename: `Screenshot 2026-02-04 234525.png`)
+<p align="center">
+  <img src="Screenshot 2026-02-04 234525.png" alt="Recipe modal — Texas Brisket Biryani" style="max-width:100%;height:auto;">
+</p>
+
+**What this shows:** full recipe modal with ingredients and steps. Use this when explaining content depth, chef-authority and the platform's role as a knowledge repo.
+
+---
+
+### 20) Recipe Modal — Hyderabadi Kachchi (filename: `Screenshot 2026-02-04 234511.png`)
+<p align="center">
+  <img src="Screenshot 2026-02-04 234511.png" alt="Recipe modal — Hyderabadi Kachchi Dum" style="max-width:100%;height:auto;">
+</p>
+
+**What this shows:** detailed recipe modal for a heritage pot (Hyderabadi Kachchi) with ingredient list and step-by-step instructions. Good for the "curated recipes" and product authenticity callout.
+
+---
+
+#### 21) Tracking Order — Live Map & Timeline
+<p align="center">
+  <img src="Screenshot 2026-02-04 234857.png" alt="Tracking order live map with cooking timeline" width="900" />
+</p>
+*Shows order tracking: left-side timeline with cooking milestones (Order Confirmed → Cooking → Dum Process) and right-side live map with icons for kitchen / rider. Useful to illustrate delivery transparency and UX for real-time status.*
+
+---
+
+#### 22) Restaurant Menu — Item Card Modal (mobile)
+<p align="center">
+  <img src="Screenshot 2026-02-04 235046.png" alt="Restaurant menu modal with item details and spice slider" width="900" />
+</p>
+*Item modal showing `Special Dum Biryani` and `Paneer Tikka` entries, spice slider, and Add to Cart CTA — demonstrates in-app item customization and ordering flow.*
+
+---
+
+#### 23) Menu — Right Column (desktop view)
+<p align="center">
+  <img src="Screenshot 2026-02-04 235028.png" alt="Menu layout with list of items on right column" width="900" />
+</p>
+*Desktop split-view where the right column lists menu items and prices while left column shows large hero image — shows responsive layout for merchant pages.*
+
+---
+
+#### 24) Restaurant Detail — Split Layout
+<p align="center">
+  <img src="Screenshot 2026-02-04 235016.png" alt="Restaurant detail page with hero, origin story and menu" width="900" />
+</p>
+*Detailed restaurant profile — origin story, craft highlights (Dum Pukht, secret spice), and menu. Use this to explain brand storytelling and product pages.*
+
+---
+
+#### 25) "Let the Dum Speak" — Fullscreen Typographic Slide
+<p align="center">
+  <img src="Screenshot 2026-02-04 235008.png" alt="Let the dum speak typographic fullscreen slide" width="900" />
+</p>
+*A dramatic fullscreen interstitial used as a brand moment / teaser — perfect to show hero animation or loading experience.*
+
+---
+
+#### 26) Discover / Recommended Grid (desktop)
+<p align="center">
+  <img src="Screenshot 2026-02-04 234936.png" alt="Recommended restaurants grid with cards and filters" width="900" />
+</p>
+*Discover page with filters, recommended cards, ETA and tags. Shows how recommendations & filtering appear on desktop.*
+
+---
+
+#### 27) Unsaved Order Warning (modal)
+<p align="center">
+  <img src="Screenshot 2026-02-04 234925.png" alt="Unsaved order warning modal with Stay / Leave options" width="600" />
+</p>
+*Confirmation modal shown when users try to navigate away with items in cart — important UX safety to prevent accidental loss of cart data.*
+
+---
+
+#### 28) Hall of Fame / Leaderboard (mobile)
+<p align="center">
+  <img src="Screenshot 2026-02-04 234903.png" alt="Hall of fame leaderboard with top users and tiers" width="600" />
+</p>
+*Gamification & community leaderboard — shows top explorers, spice masters and point tallies. Use this to explain loyalty/gamification design.*
 
 ---
 
