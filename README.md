@@ -46,6 +46,85 @@ single-category (biryani) discovery and experience platform.
 
 ---
 
+## 🧩 Product Experience Walkthrough
+
+The following screens illustrate how **Biryani360** translates a vertical food philosophy into a coherent, premium product experience. Each screen is intentionally designed to reinforce *trust, discovery, and delight* around Dum-style biryani.
+
+---
+
+### 1. Entry Experience & Value Proposition
+![Landing Experience](./Screenshot%202026-02-04%20234252.png)
+
+*The landing screen establishes Biryani360 as a curated experience, not a generic delivery app. Large hero imagery, editorial copy and a clear primary CTA set expectations for craft and authenticity.*
+
+---
+
+### 2. Personalized Discovery Feed
+![Home Feed](./Screenshot%202026-02-04%20234349.png)
+
+*The home feed blends editorial storytelling with functional discovery — featured kitchens, curated collections and editorial blurbs help users explore without choice overload.*
+
+---
+
+### 3. Live Kitchen Awareness
+![Live Map](./Screenshot%202026-02-04%20234343.png)
+
+*Live Map shows kitchens currently cooking. This transparency builds trust (freshness), encourages immediacy and aligns logistics with user intent — an elegant bridge between product and operations.*
+
+---
+
+### 4. Quick Hunt by Regional Identity
+![Quick Hunt](./Screenshot%202026-02-04%20234330.png)
+
+*Quick Hunt surfaces biryani ‘schools’ (Hyderabadi, Kolkata, Lucknowi, Ambur). These filters are cultural — they reinforce domain expertise and let connoisseurs jump straight to what they love.*
+
+---
+
+### 5. Weekend & Group Consumption Design
+![Weekend Feasts](./Screenshot%202026-02-04%20234311.png)
+
+*Weekend Feasts focuses on group packs and celebration bundles — a clear monetization play that matches real-world behavior: biryani is often ordered for groups and gatherings.*
+
+---
+
+### 6. Trust-Driven Order History
+![Order History](./Screenshot%202026-02-04%20234215.png)
+
+*Order history is more than records: clear statuses, reorder buttons, and rating badges reduce friction and increase repeat purchase likelihood — critical for a vertical premium product.*
+
+---
+
+### 7. Feedback & Gamified Reputation
+![Ratings & Feedback](./Screenshot%202026-02-04%20234158.png)
+
+*Ratings are gamified (points, photo upload bonuses). This converts feedback into a retention loop that improves content (photos & reviews) for future users and helps kitchens maintain standards.*
+
+---
+
+### 8. Identity & Preference Setup
+![Profile Setup](./Screenshot%202026-02-04%20234130.png)
+
+*Profile setup captures taste preferences (spice baseline) so recommendations are personalised. This helps avoid one-size-fits-all suggestions and increases user satisfaction.*
+
+---
+
+### 9. Secure & Familiar Authentication
+![Login Flow](./Screenshot%202026-02-04%20234120.png)
+
+*Phone-first login keeps onboarding quick while maintaining accessibility across demographics. Lightweight auth reduces drop-off and pushes users into the discovery funnel faster.*
+
+---
+
+### 10. Legal Transparency & Trust Signals
+![Terms & Conditions](./Screenshot%202026-02-04%20234111.png)
+
+*The user agreement and prototype disclaimer are clearly surfaced — signifying ethical transparency and setting user expectations (student build / demo features simulated).*
+
+---
+
+
+---
+
 ## 📊 Project Canvas
 
 <table width="100%">
